@@ -1,0 +1,663 @@
+V10_01_2018
+
+http://forum.chupa-mos.com/forum.php
+http://forum.chupa-mos.com/showthread.php?528308-cryptocurrency
+
+Mumble Client (Windows, Linux e Mac)
+https://www.mumble.com/mumble-download.php
+Mumble 3rd Party Apps:
+https://wiki.mumble.info/wiki/3rd_Party_Applications
+
+Android Mumble Client (3rd Party App): Plumble no fdroid 
+https://f-droid.org/
+
+Mumble Chat Chupa-mos
+REGRAS: Tem que se apresentar em voz com microfone ou caso contrario ficam em mute (mudos) and deafened (surdos) e apenas podem ler o texto no chat. Para evitar sockpuppets lurkers no chat.
+
+server: mumble-us2.cleanvoice.com
+port: 62808
+channel: cryptomanos
+
+Mumble Chat Bitcoin Mumble
+https://bitcoinmumble.com/
+
+Tip:
+Para Lançar varios mumble clients em simultaneo usar o comando abaixo. Podem modificar no shortcut/icon/etc que lança o software.
+$ mumble -m
+
+Trading live 24/7 do TS Whalepool
+https://www.youtube.com/channel/UCSAXsgdvfiS9WqAxwjMm8aQ
+
+###############################################################
+###############################################################
+
+Bitcoin 
+
+BASIC (TWO STEPS):
+
+
+    1. Escolher a wallet para guardar bitcoin
+
+https://bitcoin.org/en/choose-your-wallet
+
+
+Em windows nao existem boas opções de wallets de software para desktop
+A solução mais segura é usar uma TREZOR 
+https://twitter.com/trezor
+https://trezor.io/
+https://blog.trezor.io/
+https://doc.satoshilabs.com/trezor-user/
+
+
+Mais sobre bitcoin:
+https://en.bitcoin.it/wiki/Main_Page
+
+    2. Comprar bitcoin
+
+        Cartão de credito - NUNCA USAR OS DADOS DE UM CARTAO DE CREDITO REAL,
+        USAR SEMPRE UM CARTAO VIRTUAL CRIADO PELO MBNET ASSOCIADO A UM CARTAO
+        DE CREDITO REAL OU CARTAO DE DEBITO BANCARIO.
+        COMPRAS NA WEB COM CARTAO DE CREDITO NAO PEDEM PIN DO CARTAO. COLOCAR
+        DADOS DE CARTOES DE CREDITO REAIS EM SITES MALICIOSOS OU EM QUALQUER
+        SITE CUJA DB POSSA SER ROUBADA É UM RISCO SERIO DE FRAUDE COM CARTOES
+        DE CREDITO.
+https://www.coinmama.com/
+https://blockchain.info/wallet/
+https://www.coinbase.com/
+https://www.bitstamp.net/
+
+        SEPA
+https://www.kraken.com/
+https://www.bitstamp.net/
+
+###############################################################
+###############################################################
+
+    OUTRAS FONTES DE INFO.
+    PARA HOLDING (GUARDAR) APENAS OS DOIS PASSOS ANTERIORES SAO
+    NECESSARIOS.
+
+https://en.bitcoin.it/wiki/Cold_storage
+https://www.bitcoinarmory.com/
+https://www.bitcoinarmory.com/faq/
+https://bitcoin.org/en/bitcoin-core/
+https://twitter.com/TREZOR
+https://www.reddit.com/r/TREZOR/
+http://stockcharts.com/school/doku.php?id=chart_school
+https://coinmarketcap.com/
+https://www.tradingview.com/
+https://www.youtube.com/channel/UCxyD6SQNbe8sh-jqo8eTfEg
+https://www.youtube.com/channel/UCR9gdpWisRwnk_k23GsHfcA
+https://www.youtube.com/channel/UCbiWJYRg8luWHnmNkJRZEnw
+https://www.youtube.com/channel/UCJWCJCWOxBYSi5DhCieLOLQ
+http://www.libertylifetrail.com/
+https://blockchain.info/home
+https://blockchain.info/pools
+https://blockchain.info/charts/hash-rate
+https://bitcoin.org/en/full-node
+https://coin.dance/nodes
+https://www.btcforkmonitor.info/
+https://coin.dance/blocks#blockDetails
+https://www.xbt.eu/
+https://bitnodes.21.co/
+https://bitcoinfees.21.co/
+http://preev.com/btc/usd
+http://www.xe.com/currencyconverter/convert/?From=USD&To=EUR
+http://document-conversion.online-convert.com/
+https://bitcoinaverage.com/
+https://bitcointalk.org/index.php?
+https://www.reddit.com/r/Bitcoin/
+https://www.reddit.com/r/ethereum/ (altcoin)
+https://www.reddit.com/r/NEO/   (altcoin)
+https://www.reddit.com/r/.../   (... -> altcoin)
+https://www.buybitcoinworldwide.com/
+https://bitcoinmagazine.com/articles/
+
+
+
+     PAPER WALLETS 
+     PAPER WALLETS SAO CRIADAS SEMPRE EM LINUX LIVE CD/DVD - NAO
+PODE EXISTIR ESCRITA E MAQUINAS OFFLINE COM PENS USB EM VFAT PARA TRANSFERIR
+FILES
+
+          BTC PAPER WALLETS
+
+https://www.bitcoinarmory.com/tutorials/armory-advanced-features/offline-wallets/
+https://bitcointalk.org/index.php?topic=144849.0
+https://en.bitcoin.it/wiki/Paper_wallet
+https://www.bitaddress.org/bitaddress.org-v3.3.0-SHA256-dec17c07685e1870960903d8f58090475b25af946fe95a734f88408cef4aa194.html (NAO CRIAR WALLET NO WEBSITE)
+https://github.com/pointbiz/bitaddress.org (FAZER DOWNLOAD PARA PEN USB EM VFAT E CRIAR WALLET EM MAQUINA LINUX COM LIVE CD/DVD, WALLET DEVE SER IMPRESSA TAMBEM OFFLINE)
+
+          ETH PAPER WALLETS
+
+https://github.com/kvhnuke/etherwallet/releases/ (MEO WALLET - PARA USO EM LINUX CD/DVD LIVE OFFLINE ONDE SE FAZ O SIGN DAS TX)
+https://www.myetherwallet.com/ CREATE & BROADCAST TX
+
+          SEGURANÇA DE PAPER WALLETS
+
+          https://www.rittal.com/pt-pt/content/pt/produkte/schaltschraenke/schaltschraenke.jsp
+          https://www.amazon.com/OverBoard-Waterproof-Document-Pouch-Large/dp/B00DDNO4Z8
+          https://www.dickssportinggoods.com/products/dry-bags-waterproof-bags.jsp
+          https://www.banggood.com/search/water-proof-cases.html
+          https://www.banggood.com/search/water-proof-pouch.html
+
+          DESTRUIÇÃO DE PAPER WALLETS E OUTROS DOCS (EXEMPLO)
+          
+Garrafa de agua de 1.5L 95% cheia  com os docs a dissolver rasgados em tiras e
+fechada.
+Tempo de destruição aprox 1 semana, agitar a garrafa ajuda a dissolver o
+papel. Depois de dissolvido colocar na sanita.
+Para diminuir o tempo do processo pode adicionar-se alguma lixivia mas com
+cautela e em pequenas quantidades. Deixar a garrafa aberta pois o processo
+liberta gases que podem rebentar com a garrafa. Nao adequado para uso indoor
+com pouca ventilação (ex: apartamentos) ou perto de materiais possiveis de
+danificar com lixivia.
+
+
+
+      COMPRAS COM BTC
+
+https://xapo.com/card/ (cartao de credito, valido em qualquer lado)
+https://purse.io/  (compras na amazon)
+purse 101 https://www.youtube.com/watch?v=ZKj3_AgpAYg
+
+
+
+      EARN BITCOIN:
+
+https://www.reddit.com/r/JoyStream/
+https://www.reddit.com/r/Jobs4Bitcoins/
+https://www.reddit.com/r/Bitcoin/wiki/communities
+https://bitcointalk.org/index.php?topic=1244332
+
+            NOTA: CUIDADO COM FAUCETS E SITES DE PTC (PAY TO CLICK)
+            BITCOIN GENERATORS OU MULTIPLIERS SAO SEMPRE SCAM. 
+
+
+      MINING ALTCOINS: 
+
+            (storj mining)
+https://storj.io/
+            GUI (+recursos)
+https://github.com/Storj/storjshare-gui/releases/
+            CLI (-recursos)
+https://github.com/Storj/storjshare-daemon/releases
+https://nodejs.org/en/download/
+
+
+
+      EXCHANGES - TROCAR BTC POR FIAT OU ALTCOINS. COMPRAR BTC OU ALTCOINS VIA
+      SEPA OU CARTAO DE CREDITO
+
+https://www.bitfinex.com/
+https://www.bitstamp.net/
+https://www.kraken.com/
+https://bittrex.com/
+https://www.vaultoro.com/
+https://poloniex.com/login
+
+            EXCHANGES DESCENTRALIZADOS +PRIVACIDADE
+https://bisq.io/  
+
+
+      TRADING SOFTWARE:
+
+            ANDROID
+https://tab-trader.com/ (free)
+https://tab-trader.com/how-to-add-an-exchange-account/
+https://tab-trader.com/scan/ (NAO USAR ISTO, NAO COLOQUEM AS API EM NENHUM SITE)
+
+https://play.google.com/store/apps/details?id=co.bandicoot.ztrader&hl=en (pago com subscrição)
+
+              BOTS DE TRADING
+https://gekko.wizb.it/ (free)
+https://bitcointalk.org/index.php?topic=201062.0 (free)
+https://bitcointalk.org/index.php?topic=507103.0 (pago)
+
+
+
+                    !!!!EXCHANGES NAO SAO WALLETS!!!!
+Não deixar demasiado dinheiro (fiat money: USD, EUR, ...) no exchange, nem cryptos.
+Os exchanges podem fechar contas de users, serem alvos de ataques de hackers
+ou fugirem com tudo e fecharem as portas.
+
+
+
+#################################################################
+
+        LINUX LINKS:
+
+https://www.debian.org/CD/live/
+http://www.slackware.com/
+https://www.gentoo.org/
+https://www.archlinux.org/
+https://wiki.archlinux.org/ (boa documentação)
+http://ftp.slackware.com/pub/slackware/slackware-14.1/README_CRYPT.TXT (ENCRIPTAÇAO DA INSTALAÇÃO DE LINUX (FULL CRYPT OU FULL CRYPT (-EXPECTO) /BOOT)  É UMA BOA PRATICA DE SEGURANÇA - LINK UTIL PARA OUTRAS DISTROS, COMO DEBIAN)
+http://www.slackware.com/~alien/multilib/
+
+
+#################################################################
+
+        LINKS que podem ser uteis para linux e windows (adaptavel)
+
+https://pastebin.com/3a8XRAQi
+https://pastebin.com/z8nEuthQ
+
+
+#################################################################
+
+                          --- NEWS ---
+
+        Twitter (CRIAR LISTA - EX BTC, CRYPTOS... ETC):
+
+@stateofdm
+@bitstein
+@pierre_rochard
+@RichardHeartWin
+@Leila_Najim
+@jfnewbery
+@shaolinfry
+@eric_lombrozo
+@cnLedger
+@bitcoincoreorg
+@myetherwallet
+@JihanWu
+@SamouraiWallet
+@slush_pool
+@WhalePanda
+@LarryBitcoin
+@LedgerHQ
+@BitcoinBlake
+@ToneVays
+@tabtraderbtc
+@Ciphrex
+@WorldCryptoNet
+@satoshilabs
+@sharkybit
+@Airbitz
+@TheScottRob
+@ElectrumWallet
+@myBylls
+@armory
+@francispouliot_
+@MyceliumCom
+@petertoddbtc
+@TREZOR
+@krakenfx
+@MadBitcoins
+@btcdrak
+@ChandlerGuo
+@LukeDashjr
+@ercwl
+@GabrielDVine
+@AlyseKilleen
+@VitalikButerin
+@adam3us
+@jgarzik
+@Anderskargaard
+@SimonDixonTwitt
+@ErikVoorhees
+@TraceMayer
+@TuurDemeester
+
+
+        YOUTUBE 
+
+https://www.youtube.com/channel/UCR9gdpWisRwnk_k23GsHfcA (World Crypto Network)
+https://www.youtube.com/channel/UCbiWJYRg8luWHnmNkJRZEnw (Tone Vays)
+
+
+
+#################################################################
+
+        Trading Help Guides and Tips
+
+https://openload.co/f/k-TRe0XBraQ/BITFINEX.pdf (HOW TO TRADE ON BITFINEX USER GUIDE!!!)
+https://www.youtube.com/watch?v=7rFEUSu6ppM  (Trailing Stop Orders On Bitstamp) 
+https://openload.co/f/3Irj9_bXlzo/kraken.pdf  (kraken guide)
+https://openload.co/f/fY4yOxl0Am4/bistamp.pdf (bistamp guide)
+
+
+https://coinmarketcap.com/  (Lista de cryptos) 
+https://coinmarketcap.com/currencies/nem/ (clicando em XEM -> Charts)
+https://coinmarketcap.com/currencies/nem/#markets (clicando em XEM -> Markets - Aqui é possivel ver os exchanges onde se faz trading desta coin e tambem o volume de fiat e crypto a entrar nessa coin)
+https://coinmarketcap.com/charts/#dominance-percentage  
+
+https://www.tradingview.com/  (Site para analise dos mercados)
+http://i.imgur.com/KhbiCVN.png (prtscr do tradingview como exemplo)
+
+https://play.google.com/store/apps/details?id=com.blockfolio.blockfolio&hl=en
+
+
+https://pastebin.com/PJHgYpCK   (Trading Beginner Help)
+
+  
+#################################################################
+        
+        Lightning network
+
+http://lightning.network/lightning-network.pdf
+http://lightning.network/lightning-network-paper-DRAFT-0.5.pdf
+https://lightning.network/
+
+
+https://www.youtube.com/watch?v=KuHD0hMj3nI
+https://www.youtube.com/watch?v=gF_ZQ_eijPs
+https://www.youtube.com/watch?v=dlJG4OHdJzs
+https://www.youtube.com/watch?v=jUhe7J6-aG0
+https://www.youtube.com/watch?v=qQuNv_qx1xs
+https://www.youtube.com/watch?v=pT9kJq_Ogrk
+https://www.youtube.com/watch?v=GOYP4O4yetQ
+https://www.youtube.com/watch?v=2GiGIkHjyPo
+
+
+#################################################################
+
+        Criar uma wallet de electrum wallet usando linux a correr numa usb pen
+
+https://pastebin.com/GwHjBQFG
+
+https://bitcoin.org/en/
+        
+        Armory Wallet
+      
+A Armory Wallet é uma wallet avançada mas precisas de dois computadores, um online e outro que depois configurado nunca mas nunca volta a ser ligado a
+internet.
+O computador online também precisa de um full node de bitcoin.
+
+É uma soluçao exigente em hardware, pouco pratica e para users avançados. Para o user comum uma
+hardware wallet é a soluçao mais simples. 
+
+              Armory Software & Guides
+
+https://github.com/goatpig/BitcoinArmory/releases/
+https://github.com/goatpig/BitcoinArmory  (source)
+https://github.com/goatpig/BitcoinArmory/blob/master/linuxbuild/Linux_build_notes.md  (build from source)
+https://bitcointalk.org/index.php?topic=1899626.0  (build from source - more info)
+https://www.bitcoinarmory.com/ (site)
+https://www.bitcoinarmory.com/faq/ (faq)
+https://www.bitcoinarmory.com/troubleshooting/ (troubleshooting)
+https://bitcointalk.org/index.php?topic=144849.0 (Importing Armory paper wallet backup without Armory)
+https://github.com/etotheipi/BitcoinArmory/blob/master/cppForSwig/EncryptionUtils.cpp#L665  
+
+            Upgrading Armory on offline machine without connect it to the internet
+
+https://pastebin.com/zVrSJHDS
+
+
+
+#################################################################
+
+		Full Nodes
+		
+		
+https://bitcoin.org/en/		
+https://bitcoin.org/en/faq
+https://en.bitcoin.it/wiki/FAQ
+https://bitcoin.org/en/bitcoin-core/help
+https://bitcoin.org/en/bitcoin-core/help#documentation
+https://bitcoin.org/en/full-node
+https://bitcoin.org/en/developer-reference#remote-procedure-calls-rpcs
+https://en.bitcoin.it/wiki/Original_Bitcoin_client/API_calls_list
+https://bitnodes.21.co/#join-the-network
+https://blockchain.info/q/getblockcount (numero de blocks minados)
+https://blockchain.info/ip-address/90.60.70.83   (substituir 90.60.70.83 pelo vosso ip para ver as tx relayed pelo vosso node)
+
+para o node ser visto do exterior é preciso abrir as portas do router
+
+https://bitcoin.org/en/full-node#port-forwarding
+
+Em linux full node com compressão
+
+em linux podes ter symbolic links dos folders dentro ~/.bitcoin com os nomes dos foldes
+
+blocks
+chainstate
+
+a apontar para onde quiseres
+no meu caso aponta para um disco com btrfs
+
+UUID="ad060cca-9c4e-416a-b9e1-cbe56f8bba20" /storage btrfs defaults,compress=lzo 0 1
+
+no /etc/fstab
+
+é fazer tambem com full path
+
+$ chattr +c /dir/file
+
+a essas pastas para terem compressão.
+
+$ lsattr ~/storage/.bitcoin/
+--------c---------- /home/coisa/storage/.bitcoin/blocks
+--------c---------- /home/coisa/storage/.bitcoin/chainstate
+
+mais em 
+https://wiki.archlinux.org/index.php/Btrfs
+
+a 30 de Agosto a blockchain ocupava 
+
+$ du -sh ~/storage/.bitcoin/
+141G    /home/coisa/storage/.bitcoin/
+
+e pode demorar semanas a descarregar, dependendo do hardware da velocidade da rede. 
+
+
+a melhor forma de usar um full node para poupar recursos de hardware
+
+no ~/.bashrc mas estes comandos são validos tambem em Windows
+
+alias BTC_start="bitcoind -daemon -disablewallet"
+
+alias BTC_stop="bitcoin-cli stop"
+
+bitcoind -daemon -disablewallet - corre o daemon sem wallet. Nao corre GUI e assim poupa recursos e o download inicial da blockchain é mais rapido.
+
+bitcoin-cli stop  - faz stop ao daemon
+
+nos links
+
+o meu ~/.bitcoin/bitcoin.conf o -par=1 faz o full node usar apenas um core e assim poupa recursos
+
+https://pastebin.com/4qKnf6Zv 
+
+este bash script verifica se o node está actualizado ou quantos blocks faltam 
+
+https://pastebin.com/QuabJ0kP
+
+O output é o seguinte
+
+$ BTC_status                                                                                                           
+Number of blocks 482689
+up to date
+100.0 % Done
+
+o comando é valido tambem em windows
+
+bitcoin-cli getblockcount 
+
+e mosta os blocks ja descarregados da blockchain que podem ser comparados com
+
+https://blockchain.info/q/getblockcount
+
+
+#################################################################
+
+MEW Coldstorage - Coldstorage de ETH wallet e ETH paperwallets 
+
+
+https://pastebin.com/6Fiypw9q
+
+este é o aspecto de MEW paper wallet
+como é possivel verificar nao tem qualquer encriptação, a private key está completamente exposta
+
+https://i.imgur.com/FVn7GLP.png
+
+#################################################################
+
+Usar google trends para verificar interesse mundial de coins
+
+
+https://trends.google.com/trends/
+
+ex:
+https://trends.google.com/trends/explore?date=now%207-d&geo=KR&q=monero%20price,neo%20coin,bcash,omg%20coin,bithumb
+https://trends.google.com/trends/explore?date=now%207-d&q=monero%20price,neo%20coin,bcash,omg%20coin,bitcoin
+https://trends.google.com/trends/explore?date=now%207-d&geo=KR&q=monero%20price,neo%20coin,bcash,omg%20coin,bitcoin
+https://trends.google.com/trends/explore?date=now%207-d&geo=KR&q=monero%20price,neo%20coin,bcash,omg%20coin
+
+
+#################################################################
+
+BTC n00b guide
+
+1a) Wallet - Hardware Wallet Cold storage  https://trezor.io/
+1b) Wallet Android https://samouraiwallet.com/
+
+2) Buy bitcoin every month (usar no telemovel para comprar) https://www.coinmama.com/
+
+3) Buy more bitcoin when price dips (usar no telemovel para comprar) https://www.coinmama.com/
+
+4) Notificações e alertas de preços
+https://play.google.com/store/apps/details?id=com.mobnetic.coinguardian&hl=en
+
+5) Comprem a TREZOR assim que puderem. Podem usar a app dos devs da saumorai wallet https://samouraiwallet.com/sentinel.html Que faz watch only da vossa TREZOR. E assim que comprarem bitcoins por exemplo no coinmama podem enviar para a TREZOR sem a terem com vcs. É o que se chama wathc only.
+
+
+6) Mais info
+https://en.bitcoin.it/wiki/Main_Page
+https://www.youtube.com/channel/UCJWCJCWOxBYSi5DhCieLOLQ
+https://antonopoulos.com/books/
+https://www.amazon.com/Internet-Money-Andreas-M-Antonopoulos-ebook/dp/B01L9WM0H8
+
+
+
+--------------------------------------
+
+volto a repetir verifiquem logo de uma vez os
+seguintes sites
+kraken (trading e compras btc por SEPA)
+bitfinex (trading)
+bitstamp (trading)
+bittrex (trading)
+poloniex (trading)
+coinmama (compras btc com cartao de credito virtual CCV, nao ponham dados de
+cartoes de credito reais em sites online porque nao sao pedidos pin. Se fodem
+a DB do site usam os vossos cartoes.)
+coinbase (serve para comprar btc com cartao de credito apenas! Nao da para
+fazer trading na coinbase)
+
+o kraken também vai abaixo com frequencia nas horas de maior volatilidade
+para trading os melhores sao bitstamp e bitfinex
+para altcoins tem sempre o bittrex e poloniex (polo) que tem quase todas as
+shitcoins que aparecem
+
+mas todos os exchanges podem ser hackados e ja foram alguns dos mais antigos,
+como o bitstamp e o bitfinex.
+sobreviveram e melhoram a sua segurança.
+
+até mesmo no vosso computador podem ser roubados as vossas bitcoins
+https://en.bitcoin.it/wiki/Securing_your_wallet
+
+como podem ver acima a melhor soluçao é cold storage porque a private key fica
+offline
+ou compram um hardware wallet ou andam com varios computadores ou com um com 1
+live cd
+a solução com um computador a parte mesmo sendo um RPi com armory é boa pelo
+menos para aprender sobre cold storage porque foi onde aprendi mais sobre
+keys, addresses, coin splits e etc... porque mexi na xixa.
+a solução com 1 live cd com https://en.bitcoin.it/wiki/BitKey
+nao é tao comoda!
+Mas para quem está a começar e nao quer largar uns 130 euros por uma TREZOR,
+dá e sobra.
+Porque acham que vao andar a fazer tx a toda a hora? Além de que a mempool
+está cheia e até a LN estar a funcionar é o que temos até os exchanges meterem
+segwit nas suas wallets.
+A TREZOR é comoda mas pode ser um grande rombo como investimento inicial.
+
+Outra coisa que recomendo é perceberem o que é o conceito de watch only e
+tambem perceberem os que sao os addresses.
+Desde seedkey, a private key, a master pub key e pub key.
+Aprendi isto tudo usando o Armory.
+A seed key permite gerar varias private keys, é como se fosse uma master
+private key. E isto podem movimentar as vossas bitcoins e é o que define se a
+bitcoin é vossa. Sem private key como o caso dos exchanges, nada é nosso.
+Porque as bitcoins estao nas private keys dos exchanges.
+A master pub key gera pub keys, para onde se recebe bitcoin.
+
+Isto é util para que?
+É dificil acompanhar isto 24/7, por isso existe uma app em android que da
+alertas desde variaçoes de preços em percentagem a valor e etc... E o melhor é
+que suporta bitcoin e toda a merda que existe, porque vai buscar shitcoins aos
+exchanges e tem quase todos.
+Metem alertas para o que ves interessa. Por exemplo posiçoes de entra e saida,
+ou dips de bitcoin
+Além de que podem ver o preço nas notifications.
+
+No caso de uma queda de bitcoin, agarram o telemovel e entram no site do
+coinmama e compram bitcoin usando tambem o mbway.
+E agora para onde enviam?
+No caso da TREZOR existe um app dos gajos da samuorai wallet, que é um wallet
+watch only: o sentinel.
+Com este app podem ver as pub keys da vossa TREZOR que esta em casa ou noutro
+sitio qualquer.
+E podem enviar bitcoin do coinmama para a vossa TREZOR.
+
+Mas quem nao tem TREZOR está perdido?
+NAO!
+Podem guardar uma pub key (PUB KEY), das vossas wallets em cold storage
+(bitkey, paper wallet, armory, bitcoin core e etc...) num draft do gmail ou
+num txt no telemovel etc... e enviam para lá.
+
+Mesmo com soluções de hardware wallets é util correr um full node e
+experimentar o armory para perceber como funciona cold storage. Senao depois
+nao sabem o que andam a fazer com as keys.
+Foi onde aprendi o pouco que sei sobre a parte da tech de bitcoin.
+
+---------------------------------
+
+Apps em android
+
+-Trading
+Bitfinex (oficial)
+Bitstamp (oficial)
+tabtrader (suporta varios exchanges atraves das API dos exchanges: kraken,
+bitstamp, bitfinex, bittrex, poloniex, gdax e etc..)
+
+-alertas
+bitcoin checker (super configuravel, da notificaçoes de variaçoes em
+percentagem em usd, eur, btc e etc... suporta quase todas as coins e exchanges)
+
+- cold storage watch only
+sentinel (dos devs da samourai wallet)
+
+- wallet mobile (para pequenas quantias, nunca mais de 100 usd num telemovel)
+saumorai wallet
+
+- misc
+hiper calc pro
+calc (android)
+world time 
+twitter oficial (para as notificações)
+tweettings (ou uma alternativa ao twitter ao oficial do vosso gosto, para ler
+as os tweets que vem das notificaçoes do client oficial- que é uma merda).
+
+----
+
+Não se usa pairs the crypto com euros!
+Apensas faz sentido no kraken pois o kraken tem um grande volume no XBTEUR.
+Em todos os outros enchanges os pairs sao com usd ou btc porque esses tem mais
+volume.
+Em exchanges que nao existe fiat como poloniex ou bittrex, pode usar-se o usdt
+como referencia senao tiver muito volume
+
+#################################################################
+
+[url]https://ninetrans.blogspot.pt/p/trading-guide.html[/url]
+[url]https://ninetrans.blogspot.pt/2017/06/nine-transitions-book.html[/url]
+[url]https://www.tradingview.com/chart/BTCUSD/4IneGo8h-Master-Index-List-of-all-my-indicators/[/url]
+[url]https://www.babypips.com/[/url]
+[url]https://www.youtube.com/user/carpenoctom[/url]
+[url]https://www.amazon.com/High-Probability-ETF-Trading-Professional/dp/0615297412/ref=sr_1_1?ie=UTF8&qid=1509853965&sr=8-1&keywords=high+probability+ETF[/url]
+[url]https://nofile.io/f/ppU0AO76U6B/BEAT_THE_FOREX_DEALER.pdf[/url]
+
+[url]https://i.imgur.com/DLPxivA.jpg[/url]
