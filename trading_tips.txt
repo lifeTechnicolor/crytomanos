@@ -20,3 +20,37 @@ Plataformas de charts
 Misc
 	https://www.tradingview.com/chart/BTCUSD/4IneGo8h-Master-Index-List-of-all-my-indicators/
 	https://www.babypips.com/
+	
+
+Exchanges
+	https://www.bitfinex.com/
+	https://www.bitstamp.net/
+	https://www.kraken.com/
+	https://bittrex.com/
+	https://www.vaultoro.com/
+	https://poloniex.com/login
+	https://bisq.io/  
+
+
+Exchanges Futures
+	https://www.bitmex.com
+	
+
+Trading Help Guides and Tips
+
+	https://openload.co/f/k-TRe0XBraQ/BITFINEX.pdf (HOW TO TRADE ON BITFINEX USER GUIDE!!!)
+	https://www.youtube.com/watch?v=7rFEUSu6ppM  (Trailing Stop Orders On Bitstamp) 
+	https://openload.co/f/3Irj9_bXlzo/kraken.pdf  (kraken guide)
+	https://openload.co/f/fY4yOxl0Am4/bistamp.pdf (bistamp guide)
+
+
+	https://coinmarketcap.com/  (Lista de cryptos) 
+	https://coinmarketcap.com/currencies/nem/ (clicando em XEM -> Charts)
+	https://coinmarketcap.com/currencies/nem/#markets (clicando em XEM -> Markets - Aqui é possivel ver os exchanges onde se faz trading desta coin e tambem o volume de fiat e crypto a entrar nessa coin)
+	
+	https://coinmarketcap.com/charts/
+	https://coinmarketcap.com/gainers-losers/
+	https://coinmarketcap.com/currencies/volume/24-hour/
+	https://coinmarketcap.com/exchanges/volume/24-hour/
+	https://coinmarketcap.com/currencies/bitcoin/#markets  	
+
