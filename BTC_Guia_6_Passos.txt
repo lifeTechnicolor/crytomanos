@@ -1,0 +1,20 @@
+BTC n00b guide
+
+1a) Wallet - Hardware Wallet Cold storage  https://trezor.io/
+1b) Wallet Android https://samouraiwallet.com/
+
+2) Buy bitcoin every month (usar no telemovel para comprar) https://www.coinmama.com/
+
+3) Buy more bitcoin when price dips (usar no telemovel para comprar) https://www.coinmama.com/
+
+4) Notificações e alertas de preços
+https://play.google.com/store/apps/details?id=com.mobnetic.coinguardian&hl=en
+
+5) Comprem a TREZOR assim que puderem. Podem usar a app dos devs da saumorai wallet https://samouraiwallet.com/sentinel.html Que faz watch only da vossa TREZOR. E assim que comprarem bitcoins por exemplo no coinmama podem enviar para a TREZOR sem a terem com vcs. É o que se chama wathc only.
+
+
+6) Mais info
+https://en.bitcoin.it/wiki/Main_Page
+https://www.youtube.com/channel/UCJWCJCWOxBYSi5DhCieLOLQ
+https://antonopoulos.com/books/
+https://www.amazon.com/Internet-Money-Andreas-M-Antonopoulos-ebook/dp/B01L9WM0H8
