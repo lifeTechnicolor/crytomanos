@@ -37,7 +37,6 @@ Exchanges Futures
 	
 
 Trading Help Guides and Tips
-
 	https://openload.co/f/k-TRe0XBraQ/BITFINEX.pdf (HOW TO TRADE ON BITFINEX USER GUIDE!!!)
 	https://www.youtube.com/watch?v=7rFEUSu6ppM  (Trailing Stop Orders On Bitstamp) 
 	https://openload.co/f/3Irj9_bXlzo/kraken.pdf  (kraken guide)
@@ -54,3 +53,6 @@ Trading Help Guides and Tips
 	https://coinmarketcap.com/exchanges/volume/24-hour/
 	https://coinmarketcap.com/currencies/bitcoin/#markets  	
 
+
+Trading live 24/7 do TS Whalepool
+	https://www.youtube.com/channel/UCSAXsgdvfiS9WqAxwjMm8aQ

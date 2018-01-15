@@ -13,85 +13,9 @@ Como verificar a integridade e autenticidade do software
 	https://linuxmint.com/verify.php
 
 
-bash script para Linux para verificação da integridade e autenticidade do software
-
-	#!/bin/bash
-
-	release_sig=$1
-
-	if [[ -z $release_sig ]] ; then
-	  printf "\n\nUsage: ./verify.sh release_sig\n"
-	  exit 0
-	fi
-
-	gpg --verify-files $release_sig
-
-	sha256sum --ignore-missing -c $release_sig
-
-
 Mais sobre PGP keys
 	http://www.mattnworb.com/post/how-to-verify-a-pgp-signature-with-gnupg/
 	https://futureboy.us/pgp.html
-
-
-bash script que verifica se o node esta sincronizado ou quantos blocks faltam.
-
-	#!/bin/bash
-
-	bitcoindSynced() {
-
-	  process=bitcoind
-	  pidof -s "$process" > /dev/null 2>&1
-	  status=$?
-
-	  blockCount=`bitcoin-cli getblockcount`
-
-	  blockChain=`wget -O - http://blockchain.info/q/getblockcount`
-
-	  if [[ "$status" -eq 0 ]]; then
-		printf "OK!!! bitcoind is running\n\n"
-	  else
-		printf "ERROR!!! bitcoind not running\n\n"
-		exit 1
-	  fi
-
-	  blockCount=`bitcoin-cli getblockcount`
-
-	  if [[ -z "$blockCount" ]] ; then
-		printf "ERROR!!! Error getting blockcount from bitcoind\n"
-		exit 1
-	  fi
-
-	  printf "Number of blocks "$blockCount"\n"
-
-	  if [[ -z "$blockChain" ]] ; then
-		printf "ERROR!!! Error getting blockcount from http://blockchain.info/\n\n"
-		exit 1
-	  fi
-
-	  blockDiff=$(($blockChain -  $blockCount))
-
-	  if [[ ! -z "$blockChain" ]] && [[ ! -z "$blockChain" ]] &&  [[ ! -z "$blockDiff" ]] ; then
-		if [[ "$blockDiff" = 0 ]] ; then
-		  echo "up to date"
-		else
-		  echo ""$blockDiff" blocks behind"
-		fi
-	  fi
-
-	  perc=$(echo "$blockCount" / "$blockChain" | bc -l)
-
-	  perc=$(echo "$perc"*"100" | bc)
-
-	  perc=$(echo "$perc" | cut -c-5)
-
-	  printf ""$perc" %% Done \n\n"
-
-	} 2>/dev/null
-
-	source ~/.bashrc
-
-	bitcoindSynced
 
 
 Nota:
@@ -99,4 +23,18 @@ Nota:
 	Esta é uma das vulnerabilidades mais exploradas por hackers.
  
 
+Misc:
+	alias BTC_start="bitcoind -daemon -disablewallet"
+
+	alias BTC_stop="bitcoin-cli stop"
+	
+	corre o daemon sem wallet. Nao corre GUI e assim poupa recursos e o download inicial da blockchain é mais rapido.
+		bitcoind -daemon -disablewallet
+	
+	faz stop ao daemon. o node para
+		bitcoin-cli stop
+	
+	mostra os blocks ja descarregados da blockchain que podem ser comparados com https://blockchain.info/q/getblockcount
+		bitcoin-cli getblockcount 
+ 
 
