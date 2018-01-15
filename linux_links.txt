@@ -1,0 +1,63 @@
+NOTA: 
+	TODOS LINUX OS DEVE ESTAR ENCRIPTADOS.
+	WINDOWS É DEMASIADO INSEGURO E INSTAVEL PARA USAR COMO SOLUÇÕES DE COLD STORAGE OU PARA FULL NODES.
+
+
+Distros:
+	https://www.debian.org/CD/live
+	http://www.slackware.com/
+	http://www.slackware.com/~alien/multilib/
+
+Docs:
+	https://wiki.archlinux.org/ (boa documentação)
+	
+	ENCRIPTAÇAO DA INSTALAÇÃO DE LINUX (FULL CRYPT OU FULL CRYPT (-EXPECTO) /BOOT)  É UMA BOA PRATICA DE SEGURANÇA - LINK UTIL PARA OUTRAS DISTROS, COMO DEBIAN)
+	http://ftp.slackware.com/pub/slackware/slackware-14.1/README_CRYPT.TXT
+	
+	
+Para maquinas de 64 bits, escolher AMD64. No caso de debian:
+	https://cdimage.debian.org/debian-cd/current-live/amd64/iso-hybrid/
+
+É sempre aconselhavel escolher um DE leve como XFCE ou LXDE.
+
+
+BTRFS filesystem
+
+	UUID="ad060cca-9c4e-416a-b9e1-cbe56f8bba20" /storage btrfs defaults,compress=lzo 0 1
+
+	no /etc/fstab
+
+	é fazer tambem com full path
+
+	$ chattr +c /dir/file
+
+	a essas pastas para terem compressão.
+
+	$ lsattr ~/storage/.bitcoin/
+	--------c---------- /home/coisa/storage/.bitcoin/blocks
+	--------c---------- /home/coisa/storage/.bitcoin/chainstate
+
+	mais em 
+	https://wiki.archlinux.org/index.php/Btrfs	
+	
+	a 30 de Agosto de 2017 a blockchain ocupava em btrfs 
+
+	$ du -sh ~/storage/.bitcoin/
+	141G    /home/coisa/storage/.bitcoin/	
+	
+	a 15 de Janeiro de 2018 a blockchain ocupava em btrfs 
+	
+	$ du -sh ~/.bitcoin/blocks/
+	163G    /home/coisa/.bitcoin/blocks/
+
+	Isto é um full node!!! 
+	Um pruned node ocupa no minimo 550M. Um pruned node limita a blockchain a um determinado numero de megas, sendo o minimo 550M. A partir dai os blocks antigos são apagados. 
+	No ficheiro bitcoin.conf:
+	
+			# Reduce storage requirements by pruning (deleting) old blocks. This mode is incompatible with -txindex and -rescan. 
+			# Warning: Reverting this setting requires re-downloading the entire blockchain. 
+			# (default: 0 = disable pruning blocks, >550 = target size in MiB to use for block files)
+			prune=4000 # 4GB de espaço em disco
+			
+
+	
