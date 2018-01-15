@@ -1,0 +1,19 @@
+Mumble Client (Windows, Linux e Mac)
+	https://www.mumble.com/mumble-download.php
+	
+	
+Mumble 3rd Party Apps:
+	https://wiki.mumble.info/wiki/3rd_Party_Applications
+
+
+Android Mumble Client (3rd Party App): Plumble no fdroid 
+	https://f-droid.org/
+
+
+Mumble Chat Bitcoin Mumble
+	https://bitcoinmumble.com/
+
+
+Tip:
+	Para Lançar varios mumble clients em simultaneo usar o comando abaixo. Podem modificar no shortcut/icon/etc que lança o software.
+	$ mumble -m
