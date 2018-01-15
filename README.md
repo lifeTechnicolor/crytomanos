@@ -16,5 +16,5 @@ O objectivo é completar e corrigir os documentos acima.
 
 
 
-#Nota: 
+## Nota: 
 Para perceber o potencial de bitcoin é aconselhavel correr um full node ou pruned node.
