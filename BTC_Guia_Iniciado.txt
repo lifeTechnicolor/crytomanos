@@ -1,0 +1,141 @@
+BTC n00b guide
+
+1a) Wallet - Hardware Wallet Cold storage  https://trezor.io/
+1b) Wallet Android https://samouraiwallet.com/
+
+2) Buy bitcoin every month (usar no telemovel para comprar) https://www.coinmama.com/
+
+3) Buy more bitcoin when price dips (usar no telemovel para comprar) https://www.coinmama.com/
+
+4) Notificações e alertas de preços
+https://play.google.com/store/apps/details?id=com.mobnetic.coinguardian&hl=en
+
+5) Comprem a TREZOR assim que puderem. Podem usar a app dos devs da saumorai wallet https://samouraiwallet.com/sentinel.html Que faz watch only da vossa TREZOR. E assim que comprarem bitcoins por exemplo no coinmama podem enviar para a TREZOR sem a terem com vcs. É o que se chama wathc only.
+
+
+6) Mais info
+https://en.bitcoin.it/wiki/Main_Page
+https://www.youtube.com/channel/UCJWCJCWOxBYSi5DhCieLOLQ
+https://antonopoulos.com/books/
+https://www.amazon.com/Internet-Money-Andreas-M-Antonopoulos-ebook/dp/B01L9WM0H8
+
+
+
+--------------------------------------
+
+volto a repetir verifiquem logo de uma vez os
+seguintes sites
+kraken (trading e compras btc por SEPA)
+bitfinex (trading)
+bitstamp (trading)
+bittrex (trading)
+poloniex (trading)
+coinmama (compras btc com cartao de credito virtual CCV, nao ponham dados de
+cartoes de credito reais em sites online porque nao sao pedidos pin. Se fodem
+a DB do site usam os vossos cartoes.)
+coinbase (serve para comprar btc com cartao de credito apenas! Nao da para
+fazer trading na coinbase)
+
+o kraken também vai abaixo com frequencia nas horas de maior volatilidade
+para trading os melhores sao bitstamp e bitfinex
+para altcoins tem sempre o bittrex e poloniex (polo) que tem quase todas as
+shitcoins que aparecem
+
+mas todos os exchanges podem ser hackados e ja foram alguns dos mais antigos,
+como o bitstamp e o bitfinex.
+sobreviveram e melhoram a sua segurança.
+
+até mesmo no vosso computador podem ser roubados as vossas bitcoins
+https://en.bitcoin.it/wiki/Securing_your_wallet
+
+como podem ver acima a melhor soluçao é cold storage porque a private key fica
+offline
+ou compram um hardware wallet ou andam com varios computadores ou com um com 1
+live cd
+a solução com um computador a parte mesmo sendo um RPi com armory é boa pelo
+menos para aprender sobre cold storage porque foi onde aprendi mais sobre
+keys, addresses, coin splits e etc... porque mexi na xixa.
+a solução com 1 live cd com https://en.bitcoin.it/wiki/BitKey
+nao é tao comoda!
+Mas para quem está a começar e nao quer largar uns 130 euros por uma TREZOR,
+dá e sobra.
+Porque acham que vao andar a fazer tx a toda a hora? Além de que a mempool
+está cheia e até a LN estar a funcionar é o que temos até os exchanges meterem
+segwit nas suas wallets.
+A TREZOR é comoda mas pode ser um grande rombo como investimento inicial.
+
+Outra coisa que recomendo é perceberem o que é o conceito de watch only e
+tambem perceberem os que sao os addresses.
+Desde seedkey, a private key, a master pub key e pub key.
+Aprendi isto tudo usando o Armory.
+A seed key permite gerar varias private keys, é como se fosse uma master
+private key. E isto podem movimentar as vossas bitcoins e é o que define se a
+bitcoin é vossa. Sem private key como o caso dos exchanges, nada é nosso.
+Porque as bitcoins estao nas private keys dos exchanges.
+A master pub key gera pub keys, para onde se recebe bitcoin.
+
+Isto é util para que?
+É dificil acompanhar isto 24/7, por isso existe uma app em android que da
+alertas desde variaçoes de preços em percentagem a valor e etc... E o melhor é
+que suporta bitcoin e toda a merda que existe, porque vai buscar shitcoins aos
+exchanges e tem quase todos.
+Metem alertas para o que ves interessa. Por exemplo posiçoes de entra e saida,
+ou dips de bitcoin
+Além de que podem ver o preço nas notifications.
+
+No caso de uma queda de bitcoin, agarram o telemovel e entram no site do
+coinmama e compram bitcoin usando tambem o mbway.
+E agora para onde enviam?
+No caso da TREZOR existe um app dos gajos da samuorai wallet, que é um wallet
+watch only: o sentinel.
+Com este app podem ver as pub keys da vossa TREZOR que esta em casa ou noutro
+sitio qualquer.
+E podem enviar bitcoin do coinmama para a vossa TREZOR.
+
+Mas quem nao tem TREZOR está perdido?
+NAO!
+Podem guardar uma pub key (PUB KEY), das vossas wallets em cold storage
+(bitkey, paper wallet, armory, bitcoin core e etc...) num draft do gmail ou
+num txt no telemovel etc... e enviam para lá.
+
+Mesmo com soluções de hardware wallets é util correr um full node e
+experimentar o armory para perceber como funciona cold storage. Senao depois
+nao sabem o que andam a fazer com as keys.
+Foi onde aprendi o pouco que sei sobre a parte da tech de bitcoin.
+
+---------------------------------
+
+Apps em android
+
+-Trading
+Bitfinex (oficial)
+Bitstamp (oficial)
+tabtrader (suporta varios exchanges atraves das API dos exchanges: kraken,
+bitstamp, bitfinex, bittrex, poloniex, gdax e etc..)
+
+-alertas
+bitcoin checker (super configuravel, da notificaçoes de variaçoes em
+percentagem em usd, eur, btc e etc... suporta quase todas as coins e exchanges)
+
+- cold storage watch only
+sentinel (dos devs da samourai wallet)
+
+- wallet mobile (para pequenas quantias, nunca mais de 100 usd num telemovel)
+saumorai wallet
+
+- misc
+hiper calc pro
+calc (android)
+world time 
+twitter oficial (para as notificações)
+tweettings (ou uma alternativa ao twitter ao oficial do vosso gosto, para ler
+as os tweets que vem das notificaçoes do client oficial- que é uma merda).
+
+----
+
+Não se usa pairs the crypto com euros!
+Apensas faz sentido no kraken pois o kraken tem um grande volume no XBTEUR.
+Em todos os outros enchanges os pairs sao com usd ou btc porque esses tem mais
+volume.
+Em exchanges que nao existe fiat como poloniex ou bittrex, pode usar-se o usdt
+como referencia senao tiver muito volume
