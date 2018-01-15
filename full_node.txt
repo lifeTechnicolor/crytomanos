@@ -1,0 +1,42 @@
+Motivos para correr um full node
+	https://hackernoon.com/money-is-a-social-construct-and-thats-why-you-should-run-a-bitcoin-full-node-ea0330cb69a5
+	https://medium.com/@lopp/securing-your-financial-sovereignty-3af6fe834603
+
+
+Software do bitcoin core ou reference client ou satoshi client 
+	https://bitcoin.org/en/version-history
+	https://bitcoin.org/bin/
+	https://bitcoin.org/en/full-node#what-is-a-full-node
+
+
+Como verificar a integridade e autenticidade do software
+	https://linuxmint.com/verify.php
+
+
+bash script para Linux para verificação da integridade e autenticidade do software
+
+	#!/bin/bash
+
+	release_sig=$1
+
+	if [[ -z $release_sig ]] ; then
+	  printf "\n\nUsage: ./verify.sh release_sig\n"
+	  exit 0
+	fi
+
+	gpg --verify-files $release_sig
+
+	sha256sum --ignore-missing -c $release_sig
+
+
+Mais sobre PGP keys
+	http://www.mattnworb.com/post/how-to-verify-a-pgp-signature-with-gnupg/
+	https://futureboy.us/pgp.html
+
+
+Nota:
+	Todo o software em crypto deve ser verificado em integridade e autenticidade. 
+	Esta é uma das vulnerabilidades mais exploradas por hackers.
+ 
+
+
