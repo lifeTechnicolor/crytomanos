@@ -37,4 +37,10 @@ Misc:
 	mostra os blocks ja descarregados da blockchain que podem ser comparados com https://blockchain.info/q/getblockcount
 		bitcoin-cli getblockcount 
  
+Mempool:
+	A mempool de cada node é unica pois pode ser configurada localmente, mas é sincronizada pela rede. Este site mostra uma mempool com stats
+		https://core.jochen-hoenicke.de/queue/#24h
+		
+
+	
 
