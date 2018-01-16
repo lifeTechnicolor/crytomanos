@@ -1,0 +1,3 @@
+Stats sobre os nodes e network em geral:
+		http://segwit.party/charts/#
+		https://bitinfocharts.com/comparison/transactionfees-btc-bch.html#3m
