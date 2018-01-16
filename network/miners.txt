@@ -1,0 +1,4 @@
+Stats sobre mining
+	https://bitcoinwisdom.com/bitcoin/difficulty
+	https://coin.dance/blocks#
+	https://tradeblock.com/bitcoin/
