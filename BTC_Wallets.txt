@@ -1,0 +1,24 @@
+Links de leitura
+	https://en.bitcoin.it/wiki/Category:Security
+	https://en.bitcoin.it/wiki/Securing_your_wallet
+	https://en.bitcoin.it/wiki/Cold_storage
+	https://en.bitcoin.it/wiki/BitKey
+	
+	
+A solução mais comoda é uma hardware wallet como a TREZOR, que tem hardware e software open source.
+Logo todo esse hardware software pode ser auditado por qualquer pessoa.
+
+Hardware wallets que sejam closed source são uma vulnerabilidade. 
+
+Uma TREZOR custa cerca de 130 euros e para quem entra em crypto pode ser um investimento elevado.
+Existem soluções alernativas em software de cold storage e menos comodas de usar do que a TREZOR, é o caso do bitkey.
+Mas como uma solução temporaria para inciados em crypto que ponderem depois a comprar de uma hardware wallet é uma optima solução.
+
+https://en.bitcoin.it/wiki/BitKey
+
+Um erro comum dos iniciantes de crypto é perder as private keys.
+Perceber o que sao seed keys, private keys e pub keys pode prevenir a perda de coins.
+
+https://en.bitcoin.it/wiki/Private_key
+https://en.bitcoin.it/wiki/Address
+https://en.bitcoin.it/wiki/Deterministic_wallet
