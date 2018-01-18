@@ -1,3 +1,5 @@
 Stats sobre os nodes e network em geral:
+                https://bitnodes.earn.com/
+                https://bitnodes.earn.com/nodes/?q=Portugal
 		http://segwit.party/charts/#
 		https://bitinfocharts.com/comparison/transactionfees-btc-bch.html#3m
