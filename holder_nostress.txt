@@ -59,7 +59,7 @@ Em passos simples
         //@Author: vaginaldo
 
         //This indicator was made to allow three moving averages to be displayed
-        without needing to use up 3 charting indicators individually
+        //without needing to use up 3 charting indicators individually
 
         study(title="Triple Moving Averages", shorttitle="TSMA", overlay=true)
 
