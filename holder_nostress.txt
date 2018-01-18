@@ -55,33 +55,33 @@ Em passos simples
 8)  No tradingview no fundo do ecrã existe "Pine Editor", colar o codigo e
     gravar com o nome Triple Moving Averages
     
-        //@version=3
-        //@Author: vaginaldo
+//@version=3
+//@Author: vaginaldo
 
-        //This indicator was made to allow three moving averages to be displayed
-        //without needing to use up 3 charting indicators individually
+//This indicator was made to allow three moving averages to be displayed
+//without needing to use up 3 charting indicators individually
 
-        study(title="Triple Moving Averages", shorttitle="TSMA", overlay=true)
+study(title="Triple Moving Averages", shorttitle="TSMA", overlay=true)
 
-        // Checkbox's for the other 2 MA's
-        a = input(true, title="Enable 2nd MA")
-        b = input(true, title="Enable 3rd MA")
+// Checkbox's for the other 2 MA's
+a = input(true, title="Enable 2nd MA")
+b = input(true, title="Enable 3rd MA")
 
-        len = input(50, minval=1, title="Length")
-        len2 = input(100, minval=1, title="Length2")
-        len3 = input(200, minval=1, title="Length3")
+len = input(50, minval=1, title="Length")
+len2 = input(100, minval=1, title="Length2")
+len3 = input(200, minval=1, title="Length3")
 
-        src = input(close, title="Source")
-        src2 = input(close, title="Source2")
-        src3 = input(close, title="Source3")
+src = input(close, title="Source")
+src2 = input(close, title="Source2")
+src3 = input(close, title="Source3")
 
-        out = sma(src, len)
-        out2 = sma(src2, len2)
-        out3 = sma(src3, len3)
+out = sma(src, len)
+out2 = sma(src2, len2)
+out3 = sma(src3, len3)
 
-        plot(out, title="MA", color=red)
-        plot(a and out2 ? out2: na, title="MA2", color=green)
-        plot(b and out3 ? out3: na, title="MA3", color=blue)
+plot(out, title="MA", color=red)
+plot(a and out2 ? out2: na, title="MA2", color=green)
+plot(b and out3 ? out3: na, title="MA3", color=blue)
 
 
 9)  No chart do 1D do pair BTCUSD do bistamp quando existir uma queda de
