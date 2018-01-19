@@ -106,6 +106,7 @@ Notas:
     O bitstamp é dos maiores exchanges e tem um preço medio entre outros
     grandes enchanges, GDAX e Bitfinex.
 
+
     Porque foi escolhido usd em vez de eur?
     Os pairs de BTCUSD em todos os exchanges tem maior volume e são melhores
     para analise. 
@@ -119,11 +120,13 @@ Notas:
     exchanges como bitstamp, bitfinex e GDAX que tem fiat e os que não tem
     como poloniex e bittrex.
 
+
     O que faz aquele codigo que coloquei no trading view?
     Aquele codigo mostra o MA50, MA100 e MA200 num unico indicador.
     O trading views tem os indicadores MA50, MA100 e MA200 ja criados, mas os
     indicadores a partir de um certo numero são pagos:
     https://www.tradingview.com/gopro/
+
 
     Como se pode ver no plano free são permitidos apenas 3 indicadores por
     chart.
@@ -141,3 +144,12 @@ Notas:
     technical analysis. 
     Mas alguns ainda iniciantes neste campo conseguem fazer trading e
     aprefeiçoar o seu TA nos planos free.
+
+
+    Opcional: Se quiser fazer parte da revolução que é bitcoin corre um full
+    validating node. Os links estão na pasta network
+    E porque?
+    https://www.youtube.com/watch?v=fNk7nYxTOyQ
+
+    Os nodes em Portugal com listing ports abertas
+    https://bitnodes.earn.com/nodes/?q=Portugal
