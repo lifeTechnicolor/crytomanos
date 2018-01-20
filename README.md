@@ -20,5 +20,3 @@ O objectivo é completar e corrigir os documentos acima.
   Incluido o proprio nome do repo que tem um typo :)
 
   Desde que se perceba é o suficiente!
-
-
