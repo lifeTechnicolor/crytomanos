@@ -1,0 +1,156 @@
+Um bitcoin holder ou ser um bitcoin holder é em crypto o modo de vida mais
+despreocupado que pode existir: HONEY BADGER DON'T CARE, HONEY BADGER DON'T GIVE A FUCK
+
+Em passos simples
+
+
+1)  Destinar um orçamento mensal para compra de bitcoin, tendo em conta que
+    bitcoin é uma experiencia. E por isso: 
+          . Não se endividar;
+          . Não investir mais do que se pode perder;
+
+    Este orçamento deve estar divido em partes iguais de 50% cada, para realizar
+    duas compras mensais.
+    Tanto pode ser 100 euros, em partes iguais de 50 euros cada.
+    Ou 1000 euros, em partes iguais de 500 euros cada.
+
+    Cada carteira vai ter diferentes criterios para o que pode arriscar investir.
+
+
+2)  Ter uma wallet de cold storage como as descritas neste git repo para
+    guardar bitcoins. Ou seja uma TREZOR ou uma solução temporaria até se pode
+    investir numa TREZOR, como a software bitkey.
+    O txt BTC_Wallets.txt contem toda a informação necessaria para ou comprar uma
+    TREZOR ou para usar o bitkey.
+    
+
+3)  Usar o conceito de watch only wallet para ter uma pub key no telemovel
+    para poder receber bitcoin na TREZOR mesmo estando sem a TREZOR fisicamente.
+    Isto também está descrito em BTC_Wallets.txt e BTC_Guia_Iniciado.txt.
+
+
+4)  Usar um site de compra de bitcoin com cartão de credito virtual e usar o
+    MBWAY para criar o cartão de credito virtual.
+
+    Um site onde se pode comprar bitcoin com cartao de credito virtual é
+
+    https://www.coinmama.com
+
+
+5)  No inicio do mes compra-se 50% do orçamento disponivel para compra de
+    bitcoin
+    
+
+6)  Entrar em 
+    https://www.tradingview.com/
+    
+    E criar uma free account.
+
+
+7)  No tradingview procurar por BTCUSD e escolher o bitstamp. Escolher daily
+    candles, clicando no 1D no topo do chart ou carregando na tecla "," e depois
+    na tecla "D".
+
+
+8)  No tradingview no fundo do ecrã existe "Pine Editor", colar o codigo e
+    gravar com o nome Triple Moving Averages
+    
+//@version=3
+//@Author: vaginaldo
+
+//This indicator was made to allow three moving averages to be displayed
+//without needing to use up 3 charting indicators individually
+
+study(title="Triple Moving Averages", shorttitle="TSMA", overlay=true)
+
+// Checkbox's for the other 2 MA's
+a = input(true, title="Enable 2nd MA")
+b = input(true, title="Enable 3rd MA")
+
+len = input(50, minval=1, title="Length")
+len2 = input(100, minval=1, title="Length2")
+len3 = input(200, minval=1, title="Length3")
+
+src = input(close, title="Source")
+src2 = input(close, title="Source2")
+src3 = input(close, title="Source3")
+
+out = sma(src, len)
+out2 = sma(src2, len2)
+out3 = sma(src3, len3)
+
+plot(out, title="MA", color=red)
+plot(a and out2 ? out2: na, title="MA2", color=green)
+plot(b and out3 ? out3: na, title="MA3", color=blue)
+
+
+9)  No chart do 1D do pair BTCUSD do bistamp quando existir uma queda de
+    preço de bitcoin que atinja a moving average de 50 periodos ou seja 50
+    dias no daily chart, comprar os restantes 50% do orçamento mensal de bitcoin.
+
+
+Notas:
+
+    Por vezes existem pull backs severos em bitcoin devido a demasiada pessoas
+    entrarem na corrida de cryptos, o que leva os preços a subir demasiado num
+    curto espaço de tempo. Assim as quedas são grandes e por vezes atingem as
+    trends mais antigas, ficando o preço a baixo do MA100 (moving average de
+    100 periodos ou 100D no daily chart).
+    Se existir possibilidade de comprar um pouco mais com moderação nestas
+    alturas de panico é de considerar.
+
+
+    Porque foi escolhido o Bitstamp?
+    O preço de bitcoin tem diferenças entre exchanges, porque o preço é ditado
+    pela oferta e procura no order book dos mesmos.
+    O bitstamp é dos maiores exchanges e tem um preço medio entre outros
+    grandes enchanges, GDAX e Bitfinex.
+
+
+    Porque foi escolhido usd em vez de eur?
+    Os pairs de BTCUSD em todos os exchanges tem maior volume e são melhores
+    para analise. 
+    O unico exchange onde isso não acontece é o kraken por ser um exchange
+    lider no euro. 
+    Outra vantagem é que existe uma coin, o tether ou usdt que tem valor aprox
+    1 de usd.
+    Em alguns exchanges não existe fiat ou seja dinheiro suportado uma
+    entidade estatal como o eur ou usd, apenas existe usdt.
+    Assim usando pairs com usd e usdt consegue ter-se boas referencias entre
+    exchanges como bitstamp, bitfinex e GDAX que tem fiat e os que não tem
+    como poloniex e bittrex.
+
+
+    O que faz aquele codigo que coloquei no trading view?
+    Aquele codigo mostra o MA50, MA100 e MA200 num unico indicador.
+    O trading views tem os indicadores MA50, MA100 e MA200 ja criados, mas os
+    indicadores a partir de um certo numero são pagos:
+    https://www.tradingview.com/gopro/
+
+
+    Como se pode ver no plano free são permitidos apenas 3 indicadores por
+    chart.
+    Como os traders (um exemplo) querem ter pelo menos o MA50, MA100, MA200, RSI ou Stoch
+    ou Stoch RSI e também MACD.
+    Isto são 5 indicadores e exige um plano pago.
+    Colocando o MA50, MA100 e MA200 num unico indicador é possivel ter os
+    indicadores indicados atrás num plano free porque sao 3 indicadores
+    apenas:
+    1 - TEMA (MA50, MA100 e MA200)
+    2 - Stoch
+    3 - MACD
+
+    Planos pagos no traing view sao indicados para traders que fazem TA -
+    technical analysis. 
+    Mas alguns ainda iniciantes neste campo conseguem fazer trading e
+    aprefeiçoar o seu TA nos planos free.
+
+
+    Opcional: Se quiser fazer parte da revolução que é bitcoin corre um full
+    validating node. Links estão na pasta network
+    Porque?
+    https://www.youtube.com/watch?v=fNk7nYxTOyQ
+
+    Os nodes em Portugal com listing ports abertas
+    https://bitnodes.earn.com/nodes/?q=Portugal
+
